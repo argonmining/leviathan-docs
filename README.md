@@ -16,11 +16,3 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 ## What is Leviathan?
 
 Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) with a **programmable layer** (Miden, wrapped asset WXNT) connected by a cryptographic bridge. Proofs, not trust, secure value movement between layers.
-
-## Publishing
-
-This repository is structured for [GitBook](https://www.gitbook.com/). Sync this repo as your GitBook source and use `SUMMARY.md` as the table of contents.
-
-## Contributing
-
-Documentation pull requests are welcome. Keep changes accurate to what testnet actually supports today. Mark unreleased features under [Coming Soon](coming-soon/README.md).
