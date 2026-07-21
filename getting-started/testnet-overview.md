@@ -11,6 +11,8 @@ On the public testnet explorer you can:
 * Send WXNT between accounts you control
 * Monitor bridge activity between Neptune L1 and Miden L2
 
+Builders with a terminal can also use **`leviathan-client`** with **delegated TEE proving** — prove heavy transactions inside an attested enclave instead of only on your laptop. See [TEE proving overview](../tee/overview.md) and the [setup guide](../tee/setup.md).
+
 ## What you need
 
 * A modern browser (Chrome, Firefox, or Safari)

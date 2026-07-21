@@ -8,6 +8,8 @@ Terms used across Leviathan testnet documentation.
 
 **Account ID** — Hex identifier for a Miden account. Shown on wallet account cards; used for funding requests and sends.
 
+**Attestation** — Cryptographic evidence that a specific software composition is running inside a genuine TEE. Leviathan clients fetch attestation before delegated proving and pin the enclave TLS certificate. See [Attestation and trust](../tee/attestation.md).
+
 ## B
 
 **Bridge** — Mechanism that moves value between Neptune L1 (**XNT**) and Miden L2 (**WXNT**). Monitored at `/bridge` on the testnet explorer.
@@ -18,11 +20,15 @@ Terms used across Leviathan testnet documentation.
 
 **Claimable** — Notes or assets the wallet knows about but have not yet been **consumed** into the spendable balance.
 
+**Compose hash** — Expected enclave measurement (related to runtime registers such as RTMR3) configured in `tee_compose_hash`. Clients reject delegated proving if the live enclave does not match. Updates when the TEE image or CVM is redeployed.
+
 **Consume** — Wallet action that processes claimable notes so balances update.
 
 **Contract** — On-chain Miden program with an ID browseable under **Contracts** in the explorer.
 
 ## D
+
+**Delegate proving** — Client flag (`--delegate-proving`) that sends STARK proof generation to a remote TEE prover instead of proving only on the local machine. See [Set up delegated TEE proving](../tee/setup.md).
 
 **Deposit (bridge)** — L1 XNT locked on Neptune corresponding to WXNT minted on Miden; shown in bridge **Deposits**.
 
@@ -46,6 +52,8 @@ Terms used across Leviathan testnet documentation.
 
 ## P
 
+**Phala Cloud** — Hosting platform for Confidential VMs used by the Leviathan testnet TEE prover (Intel TDX / dstack).
+
 **Pioneer** — Early testnet participant using Leviathan interfaces and providing feedback.
 
 **Proof (STARK)** — Succinct argument that a computation or transaction followed protocol rules, verified without exposing private inputs.
@@ -55,6 +63,10 @@ Terms used across Leviathan testnet documentation.
 **Sync** — Wallet action that pulls the latest chain state into the browser session.
 
 ## T
+
+**TDX** — Intel Trust Domain Extensions; the TEE technology used for the current Phala-hosted Leviathan remote prover.
+
+**TEE** — Trusted Execution Environment: hardware-isolated enclave for running code (here, remote STARK proving) with attestation. See [TEE proving overview](../tee/overview.md).
 
 **Testnet** — Non-production network with no real-world asset value. Badge shown in the explorer header.
 

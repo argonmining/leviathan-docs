@@ -25,6 +25,13 @@
 * [STARK proofs](technology/stark-proofs.md)
 * [Post-quantum cryptography](technology/post-quantum.md)
 
+## TEE proving
+
+* [TEE proving overview](tee/overview.md)
+* [Attestation and trust](tee/attestation.md)
+* [Set up delegated TEE proving](tee/setup.md)
+* [TEE proving FAQ](tee/faq.md)
+
 ## Reference
 
 * [Glossary](reference/glossary.md)

@@ -20,6 +20,8 @@ On Neptune L1, transaction validity is expressed as STARK proofs over programs e
 
 On the programmable layer, **wallets and clients prove account transitions locally** (state updates, note consumption, script execution). Miden validators verify those proofs. This is why pioneer sends in the browser wallet can feel like “sign and wait” while heavy work happens on your machine.
 
+When local proving is too heavy, Leviathan testnet also supports **delegated proving inside an attested TEE**. The client still builds and submits the transaction; the enclave generates the STARK. See [TEE proving overview](../tee/overview.md) and [Attestation and trust](../tee/attestation.md).
+
 ## STARKs vs trust
 
 STARKs reduce trust in **honest execution** — they do not remove the need for:

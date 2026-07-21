@@ -47,6 +47,7 @@ The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/
 * Browser wallet (Falcon512-authenticated accounts)
 * WXNT faucet and peer-to-peer sends
 * Bridge visibility and settlement plumbing
+* Delegated STARK proving in an attested TEE for `leviathan-client` workflows
 
 It does **not** yet imply production-ready mainnet economics or final bridge parameters.
 
@@ -55,4 +56,5 @@ It does **not** yet imply production-ready mainnet economics or final bridge par
 * [Privacy by design](privacy.md)
 * [STARK proofs](stark-proofs.md)
 * [Post-quantum cryptography](post-quantum.md)
+* [TEE proving overview](../tee/overview.md)
 * [Glossary](../reference/glossary.md)

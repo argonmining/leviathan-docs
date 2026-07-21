@@ -16,3 +16,12 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 ## What is Leviathan?
 
 Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) with a **programmable layer** (Miden, wrapped asset WXNT) connected by a cryptographic bridge. Proofs, not trust, secure value movement between layers.
+
+## TEE proving (testnet)
+
+Heavy STARK proving can be **delegated** to an attested enclave (Intel TDX on Phala) so pioneers do not need to run every proof locally. Start here:
+
+* [TEE proving overview](tee/overview.md)
+* [Attestation and trust](tee/attestation.md)
+* [Set up delegated TEE proving](tee/setup.md)
+* [TEE proving FAQ](tee/faq.md)
