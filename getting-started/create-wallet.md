@@ -8,7 +8,7 @@ Follow [Install the Chrome extension](../wallets/chrome-extension.md): get the p
 
 Then:
 
-1. [Get testnet funds](request-funds.md)
+1. [Request testnet funds](request-funds.md)
 2. [Send tokens](send-tokens.md)
 
 ## Secondary: hosted web wallet
@@ -32,4 +32,4 @@ Short version:
 
 ## Next step
 
-[Get testnet funds](request-funds.md).
+[Request testnet funds](request-funds.md).

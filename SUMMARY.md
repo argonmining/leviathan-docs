@@ -6,7 +6,7 @@
 
 * [Testnet overview](getting-started/testnet-overview.md)
 * [Create a wallet](getting-started/create-wallet.md)
-* [Get testnet funds](getting-started/request-funds.md)
+* [Request testnet funds](getting-started/request-funds.md)
 * [Send tokens](getting-started/send-tokens.md)
 
 ## Wallets

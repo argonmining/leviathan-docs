@@ -7,7 +7,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 * Browse blocks, transactions, accounts, and contracts on the [explorer](https://leviathandev.neptune.io/)
 * Use the **Leviathan Chrome extension** (primary pioneer wallet — sideload from Pioneers Telegram)
 * Optionally use the [hosted web wallet](https://leviathandev.neptune.io/wallet)
-* Get testnet funds via the extension **Faucet** flow (team mint as fallback)
+* Get testnet funds by asking in the **Leviathan Pioneers** Telegram group
 * Send assets between accounts you control
 * Monitor bridge activity between Neptune L1 and Miden L2
 * Builders with a terminal can use **`leviathan-client`** with [delegated TEE proving](../tee/overview.md)
@@ -38,5 +38,5 @@ This is an active testnet. Expect downtime, UI changes, and features still liste
 ## Next steps
 
 1. [Install the Chrome extension](../wallets/chrome-extension.md) (or [hosted web wallet](../wallets/web-wallet.md))
-2. [Get testnet funds](request-funds.md)
+2. [Request testnet funds](request-funds.md)
 3. [Send tokens](send-tokens.md)

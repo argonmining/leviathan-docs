@@ -45,7 +45,7 @@ The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/
 
 * Miden indexing and explorer UX
 * Leviathan Chrome extension (Pioneers sideload) and hosted browser wallet
-* WXNT funding (extension faucet path + operator fallback) and peer-to-peer sends
+* WXNT funding via Pioneers Telegram (operator mint) and peer-to-peer sends
 * Bridge visibility and settlement plumbing
 * Delegated STARK proving in an attested TEE for `leviathan-client` workflows
 

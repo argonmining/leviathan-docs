@@ -55,4 +55,4 @@ Browse deployed contracts. The WXNT faucet contract is central to testnet WXNT; 
 
 The explorer reflects what the indexer has processed. There can be short lag after a wallet **Sync**. If something is missing, sync the wallet again and retry in a minute.
 
-Operator-only actions (manual mint, L1 node setup) are not fully represented in the explorer UI. Pioneer funding still goes through [request testnet funds](../getting-started/request-funds.md).
+Operator-only actions (manual mint, L1 node setup) are not fully represented in the explorer UI. Pioneer funding goes through [request testnet funds](../getting-started/request-funds.md).

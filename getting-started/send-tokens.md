@@ -22,7 +22,7 @@ Send WXNT (or other test assets) between accounts on the programmable layer. Pre
 ### Testing between two accounts
 
 1. Create wallet A and wallet B in the extension (or a second browser profile / second install — avoid mixing seeds).
-2. Fund wallet A via [Get testnet funds](request-funds.md).
+2. Fund wallet A via [Request testnet funds](request-funds.md).
 3. Copy B’s address from **Receive**.
 4. Send from A to B.
 5. Sync and consume on B.
@@ -67,6 +67,6 @@ The hosted wallet may include **Burn WXNT** for L1 withdrawal experiments. That 
 
 ## Related
 
-* [Get testnet funds](request-funds.md)
+* [Request testnet funds](request-funds.md)
 * [Wallets overview](../wallets/README.md)
 * [Testnet constants](../reference/testnet-constants.md)

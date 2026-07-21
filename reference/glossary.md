@@ -34,7 +34,7 @@ Terms used across Leviathan testnet documentation.
 
 ## F
 
-**Faucet (WXNT)** — Contract that mints / identifies testnet WXNT. Public ID: `b0682b76d8939720429ec7e43f194a`. Pioneers use the Chrome extension **Faucet** UI (or team mint fallback); the hosted **Mint Tokens** panel is operator-only.
+**Faucet (WXNT)** — On-chain contract id for testnet WXNT (`b0682b76d8939720429ec7e43f194a`), used when a send form asks which token faucet to spend from. Pioneers receive funds by requesting a mint in the Pioneers Telegram group; the hosted **Mint Tokens** panel is operator-only.
 
 ## M
 

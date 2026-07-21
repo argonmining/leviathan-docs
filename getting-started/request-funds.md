@@ -1,69 +1,71 @@
-# Get testnet funds
+# Request testnet funds
 
-Leviathan testnet WXNT is for experimentation only. There is **no real-world value**.
+Testnet WXNT has **no real-world value**. Pioneers receive funds by joining the **Leviathan Pioneers** Telegram group and asking the team to mint to their address.
 
-## Preferred path: Faucet in the Chrome extension
+There is no public self-serve faucet in the pioneer docs. Ignore in-app **Faucet** buttons unless the team explicitly tells you to use a different process.
 
-Use the **Leviathan Chrome extension** ([install](../wallets/chrome-extension.md)).
+## Step 1 — Join Leviathan Pioneers
 
-1. Open the extension and finish wallet creation.
-2. Open **Receive** and confirm you see a **bech32** address (`mtst1…`). You can leave this tab available for paste.
-3. From home, open **Faucet** (action labeled **Faucet**).
-4. On the **Leviathan Faucet** screen, read the short message, then click **Go to Faucet**.
-5. The extension copies your receive address and opens the **faucet page configured in that pioneer build** in a browser view or tab.
-6. Complete the faucet page using your address (paste if the page did not prefill). Follow that page’s own confirmation steps.
-7. Return to the extension. **Sync**. If you see claimable notes, **Consume** them.
-8. Confirm a WXNT (or other test asset) balance on home / account views.
+1. Join the **Leviathan Pioneers** Telegram group (invite from the team / announcement channels).
+2. Use that group for extension packages (pinned message) and funding requests.
 
-### If the faucet page errors or balance stays zero
+## Step 2 — Copy your address
 
-1. Sync again and check claimable notes.
-2. Confirm you used the **same** account that the extension copied.
-3. Use the [fallback](#fallback-ask-the-pioneers-team) below.
-4. Ask in Pioneers Telegram whether the pinned build’s faucet endpoint was updated.
+**Chrome extension (recommended):**
 
-Do **not** paste seed phrases into any faucet page.
+1. Open **Receive**.
+2. Copy the **bech32** address (`mtst1…`).
 
-## Fallback: ask the Pioneers team
+**Hosted web wallet (secondary):**
 
-If self-serve faucet access is unavailable or stuck:
+1. Open [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet), connect, and open your account card.
+2. Copy the account identifier. The hosted wallet accepts **hex or bech32** in relevant fields; either form is fine when messaging the team if you copy it exactly.
 
-1. Copy your address from the extension **Receive** screen (bech32), or your account id from the [hosted web wallet](../wallets/web-wallet.md) (hex or bech32).
-2. Send that address in the Pioneers Telegram channel (or the funding thread the team designates).
-3. Wait for an operator mint.
-4. **Sync** (and **Consume** if claimable) in the wallet you used.
+Never send your seed phrase or password.
 
-Example message shape:
+## Step 3 — Request funds in Telegram
+
+Post in the Pioneers group (or the funding thread the team designates), for example:
 
 ```text
 Please fund this testnet account:
 mtst1...your_bech32_address...
 ```
 
+You can request funds for more than one account if you are testing sends between wallets.
+
+## Step 4 — Sync and consume
+
+After an operator mints:
+
+1. Open the same wallet you funded.
+2. **Sync**.
+3. If you see **claimable** notes, **Consume** them.
+4. Confirm a spendable balance.
+
 ## WXNT faucet contract ID (reference)
 
-When a send form asks for a **Faucet** / token id for WXNT, use:
+When a **Send** form asks for a token **Faucet** field for WXNT, use:
 
 ```text
 b0682b76d8939720429ec7e43f194a
 ```
 
-This identifies the WXNT faucet contract on the programmable layer. It is not a substitute for the self-serve faucet UI, and it is not a private key.
+That is the on-chain faucet **contract** id used when specifying which asset to send. It is not a funding URL and not a private key.
 
 ## What not to use
 
-* **Mint Tokens** on the hosted web wallet — operator-only; needs the faucet private key.
-* Random third-party “faucets” or wallet downloads outside the Pioneers Telegram pin.
-* Mainnet addresses or mainnet faucets — this stack is **testnet-locked** for pioneers.
+* **Mint Tokens** on the hosted web wallet — operator tooling; requires the faucet private key.
+* Random third-party faucets or wallet downloads outside the Pioneers Telegram pin.
+* Mainnet addresses — pioneer wallets are **testnet**.
 
 ## Troubleshooting
 
 | Issue | What to try |
 |-------|-------------|
-| Balance still zero | Sync; Consume claimable notes; wait for inclusion; retry faucet or ask the team |
-| Faucet opened but rejected address | Use bech32 from extension Receive; do not mix accounts |
-| Web wallet send/fund field rejects input | Try the other format (hex vs bech32); copy-paste, do not retype |
-| Wrong account funded | Compare the string you sent to Receive / account card character-for-character |
+| Balance still zero | Wait for the operator reply; Sync; Consume claimable notes |
+| Wrong account funded | Compare the string you posted to Receive / account card exactly |
+| Extension vs web mismatch | Fund the wallet you will actually use; addresses differ by account |
 
 ## Next step
 

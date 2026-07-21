@@ -54,7 +54,7 @@ The Receive screen does **not** show a hex Account ID. Keep the bech32 string ex
 
 Use **Sync** (or wait for automatic sync if enabled) after funding or receiving notes. If the UI shows claimable notes, **consume** them so balances become spendable.
 
-From home you can open flows such as **Send**, **Receive**, and **Faucet** (see [Get testnet funds](../getting-started/request-funds.md)).
+From home you can open flows such as **Send** and **Receive**. For funding, see [Request testnet funds](../getting-started/request-funds.md).
 
 ## Network note
 
@@ -70,6 +70,6 @@ Pioneer builds default to **Testnet**. The header network control may be disable
 ## Related
 
 * [Wallets overview](README.md)
-* [Get testnet funds](../getting-started/request-funds.md)
+* [Request testnet funds](../getting-started/request-funds.md)
 * [Send tokens](../getting-started/send-tokens.md)
 * [Hosted web wallet](web-wallet.md) (secondary option)

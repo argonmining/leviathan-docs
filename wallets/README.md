@@ -32,5 +32,5 @@ If a tool only understands hex and you only have bech32 from the extension, use 
 ## Next steps
 
 1. [Install the Chrome extension](chrome-extension.md)
-2. [Get testnet funds](../getting-started/request-funds.md)
+2. [Request testnet funds](../getting-started/request-funds.md)
 3. [Send tokens](../getting-started/send-tokens.md)

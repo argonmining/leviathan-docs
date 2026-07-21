@@ -27,11 +27,11 @@ Click **Sync** after create, fund, or receive. If the account shows **claimable*
 
 ## Mint Tokens panel (operators only)
 
-The wallet page may show **Mint Tokens** (Target Account, Faucet, Amount, **Mint**). That panel is **operator tooling**. It requires the faucet private key. Regular pioneers should not expect it to work. Use [Get testnet funds](../getting-started/request-funds.md) instead.
+The wallet page may show **Mint Tokens** (Target Account, Faucet, Amount, **Mint**). That panel is **operator tooling**. It requires the faucet private key. Regular pioneers should not expect it to work. Use [Request testnet funds](../getting-started/request-funds.md) instead.
 
 ## Related
 
 * [Wallets overview](README.md)
 * [Install the Chrome extension](chrome-extension.md)
-* [Get testnet funds](../getting-started/request-funds.md)
+* [Request testnet funds](../getting-started/request-funds.md)
 * [Send tokens](../getting-started/send-tokens.md)

@@ -29,7 +29,7 @@ Use this value when a send form asks for the token **Faucet** field for WXNT:
 b0682b76d8939720429ec7e43f194a
 ```
 
-This is the faucet **contract** id on the programmable layer, not a private key and not the URL of the self-serve faucet UI.
+This is the faucet **contract** id on the programmable layer, not a private key and not a self-serve funding URL.
 
 ## Address formats
 
@@ -46,11 +46,10 @@ This is the faucet **contract** id on the programmable layer, not a private key 
 
 ## Funding model (testnet)
 
-* Preferred: extension **Faucet** → **Go to Faucet**, then Sync / Consume.
-* Fallback: share your address in Pioneers Telegram for an operator mint.
+* Pioneers request funds in the **Leviathan Pioneers** Telegram group; operators mint WXNT.
 * Hosted **Mint Tokens** panel is operator-only (requires faucet private key).
 
-See [Get testnet funds](../getting-started/request-funds.md).
+See [Request testnet funds](../getting-started/request-funds.md).
 
 ## Bridge monitor refresh
 

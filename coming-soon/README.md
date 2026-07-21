@@ -1,6 +1,6 @@
 # Coming soon on testnet
 
-Leviathan testnet already includes the explorer, **Leviathan Chrome extension** (Pioneers sideload), hosted web wallet, self-serve faucet path in the extension, and bridge monitor. The item below is still queued.
+Leviathan testnet already includes the explorer, **Leviathan Chrome extension** (Pioneers sideload), hosted web wallet, and bridge monitor. The item below is still queued.
 
 ## Decentralized exchange (DEX)
 
@@ -18,7 +18,7 @@ Until then, use [send tokens](../getting-started/send-tokens.md) for peer transf
 
 * [Leviathan Chrome extension](../wallets/chrome-extension.md) — Load unpacked from the Pioneers Telegram pin
 * [Hosted web wallet](../wallets/web-wallet.md)
-* [Get testnet funds](../getting-started/request-funds.md) — extension faucet plus team fallback
+* [Request testnet funds](../getting-started/request-funds.md) — ask in Pioneers Telegram
 * [Bridge monitor](../bridge/README.md)
 
 ## What is not changing

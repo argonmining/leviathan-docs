@@ -21,7 +21,7 @@ Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) 
 ## Start here (pioneers)
 
 1. [Install the Leviathan Chrome extension](wallets/chrome-extension.md)
-2. [Get testnet funds](getting-started/request-funds.md)
+2. [Request testnet funds](getting-started/request-funds.md)
 3. [Send tokens](getting-started/send-tokens.md)
 
 Hosted web wallet docs: [wallets/web-wallet.md](wallets/web-wallet.md). DEX: still [coming soon](coming-soon/README.md).
