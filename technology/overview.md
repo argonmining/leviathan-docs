@@ -44,12 +44,12 @@ Builders can hold value privately on L1, bring working capital to L2 as WXNT, an
 The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/) exercises:
 
 * Miden indexing and explorer UX
-* Browser wallet (Falcon512-authenticated accounts)
-* WXNT faucet and peer-to-peer sends
+* Leviathan Chrome extension (Pioneers sideload) and hosted browser wallet
+* WXNT funding (extension faucet path + operator fallback) and peer-to-peer sends
 * Bridge visibility and settlement plumbing
 * Delegated STARK proving in an attested TEE for `leviathan-client` workflows
 
-It does **not** yet imply production-ready mainnet economics or final bridge parameters.
+It does **not** yet imply production-ready mainnet economics, a live DEX, or final bridge parameters.
 
 ## Read next
 

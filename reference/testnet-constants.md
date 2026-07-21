@@ -7,11 +7,12 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Service | URL |
 |---------|-----|
 | Explorer (home) | [https://leviathandev.neptune.io/](https://leviathandev.neptune.io/) |
-| Wallet | [https://leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet) |
+| Hosted web wallet | [https://leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet) |
 | Bridge monitor | [https://leviathandev.neptune.io/bridge](https://leviathandev.neptune.io/bridge) |
 | Blocks | [https://leviathandev.neptune.io/blocks](https://leviathandev.neptune.io/blocks) |
 | Transactions | [https://leviathandev.neptune.io/transactions](https://leviathandev.neptune.io/transactions) |
 | Contracts | [https://leviathandev.neptune.io/contracts](https://leviathandev.neptune.io/contracts) |
+| Chrome extension package | Pioneers Telegram pinned message (Load unpacked; not Chrome Web Store) |
 
 ## Assets
 
@@ -22,31 +23,34 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 
 ## WXNT faucet ID
 
-Use this value in the wallet **Send Tokens** form **Faucet** field and when verifying WXNT contract state:
+Use this value when a send form asks for the token **Faucet** field for WXNT:
 
 ```
 b0682b76d8939720429ec7e43f194a
 ```
 
-A `0x` prefix may or may not be accepted depending on UI validation; the hex above matches pioneer documentation and request-funds examples.
+This is the faucet **contract** id on the programmable layer, not a private key and not the URL of the self-serve faucet UI.
 
-## Account ID format
+## Address formats
 
-* Hex string shown on wallet account cards (example shape: 32 hex characters).
-* Used for funding requests, sends, and explorer search (`/account/{id}`).
+| Wallet | Receive display | Accepted when pasting into that wallet’s send/fund fields |
+|--------|-----------------|----------------------------------------------------------|
+| Leviathan Chrome extension | bech32 only (for example `mtst1…`) | bech32 |
+| Hosted web wallet | Account identifier on the card | hex or bech32 |
 
 ## Network status
 
 * Explorer UI displays a **testnet** badge.
-* Wallet connects to the hosted Miden testnet configuration bundled with the explorer deployment.
+* Pioneer Chrome extension builds target **testnet**.
 * Assets have **no real-world value**.
 
 ## Funding model (testnet)
 
-* Pioneers share Account IDs with the team; operators mint WXNT manually.
-* The wallet **Mint Tokens** panel requires the faucet private key and is not for general users.
+* Preferred: extension **Faucet** → **Go to Faucet**, then Sync / Consume.
+* Fallback: share your address in Pioneers Telegram for an operator mint.
+* Hosted **Mint Tokens** panel is operator-only (requires faucet private key).
 
-See [Request testnet funds](../getting-started/request-funds.md).
+See [Get testnet funds](../getting-started/request-funds.md).
 
 ## Bridge monitor refresh
 
@@ -59,5 +63,6 @@ This repository (`leviathan-docs`) is structured for GitBook via `SUMMARY.md` an
 ## Related
 
 * [Glossary](glossary.md)
+* [Wallets overview](../wallets/README.md)
 * [Send tokens](../getting-started/send-tokens.md)
 * [Bridge monitor](../bridge/README.md)

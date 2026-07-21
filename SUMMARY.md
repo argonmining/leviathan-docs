@@ -6,8 +6,14 @@
 
 * [Testnet overview](getting-started/testnet-overview.md)
 * [Create a wallet](getting-started/create-wallet.md)
-* [Request testnet funds](getting-started/request-funds.md)
+* [Get testnet funds](getting-started/request-funds.md)
 * [Send tokens](getting-started/send-tokens.md)
+
+## Wallets
+
+* [Wallets overview](wallets/README.md)
+* [Install the Chrome extension](wallets/chrome-extension.md)
+* [Hosted web wallet](wallets/web-wallet.md)
 
 ## Using the explorer
 
@@ -16,7 +22,7 @@
 
 ## Coming soon
 
-* [Chrome extension wallet & DEX](coming-soon/README.md)
+* [DEX (testnet)](coming-soon/README.md)
 
 ## Technology
 

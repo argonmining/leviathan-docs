@@ -6,7 +6,7 @@ Terms used across Leviathan testnet documentation.
 
 **Account (Miden)** — A programmable entity with code, storage, and a vault. Identified by a hex **Account ID**. Wallets create accounts with authentication components (testnet default: Falcon512).
 
-**Account ID** — Hex identifier for a Miden account. Shown on wallet account cards; used for funding requests and sends.
+**Account ID** — Identifier for a Miden account. Hosted web wallet shows hex on account cards and accepts hex or bech32 in relevant fields. The Chrome extension **Receive** screen shows **bech32** only (for example `mtst1…`).
 
 **Attestation** — Cryptographic evidence that a specific software composition is running inside a genuine TEE. Leviathan clients fetch attestation before delegated proving and pin the enclave TLS certificate. See [Attestation and trust](../tee/attestation.md).
 
@@ -34,7 +34,7 @@ Terms used across Leviathan testnet documentation.
 
 ## F
 
-**Faucet (WXNT)** — Contract that mints testnet WXNT. Public ID: `b0682b76d8939720429ec7e43f194a`. Operator minting requires the faucet private key; pioneers request funds manually.
+**Faucet (WXNT)** — Contract that mints / identifies testnet WXNT. Public ID: `b0682b76d8939720429ec7e43f194a`. Pioneers use the Chrome extension **Faucet** UI (or team mint fallback); the hosted **Mint Tokens** panel is operator-only.
 
 ## M
 
@@ -74,7 +74,9 @@ Terms used across Leviathan testnet documentation.
 
 ## W
 
-**Wallet (browser)** — Hosted at `/wallet` on leviathandev; stores keys in browser storage (IndexedDB).
+**Wallet (browser)** — Hosted at `/wallet` on leviathandev; stores keys in browser storage (IndexedDB). Secondary to the Chrome extension for pioneers.
+
+**Wallet (Chrome extension)** — **Leviathan** unpacked extension distributed via the Pioneers Telegram pin. Primary pioneer wallet; Receive addresses are bech32.
 
 **WXNT** — Wrapped XNT on Miden. Testnet programmable-layer asset; 1:1 peg intent with XNT.
 
