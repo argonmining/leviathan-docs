@@ -48,6 +48,7 @@ The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/
 * WXNT funding via Pioneers Telegram (operator mint) and peer-to-peer sends
 * Bridge visibility and settlement plumbing
 * Delegated STARK proving in an attested TEE for `leviathan-client` workflows
+* Confidential AI: open-weight `gpt-oss-120b` inference in TDX / GPU-TEE with prepaid credits and an E2EE chat UI
 
 It does **not** yet imply production-ready mainnet economics, a live DEX, or final bridge parameters.
 
@@ -57,4 +58,5 @@ It does **not** yet imply production-ready mainnet economics, a live DEX, or fin
 * [STARK proofs](stark-proofs.md)
 * [Post-quantum cryptography](post-quantum.md)
 * [TEE proving overview](../tee/overview.md)
+* [Confidential AI overview](../confidential-ai/overview.md)
 * [Glossary](../reference/glossary.md)

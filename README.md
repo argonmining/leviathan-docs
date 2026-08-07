@@ -11,6 +11,7 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 | Explorer | [leviathandev.neptune.io](https://leviathandev.neptune.io/) |
 | Hosted web wallet | [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet) |
 | Bridge monitor | [leviathandev.neptune.io/bridge](https://leviathandev.neptune.io/bridge) |
+| Confidential AI chat | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
 | Chrome extension | Pioneers Telegram (pinned package — Load unpacked) |
 | WXNT Faucet ID | `b0682b76d8939720429ec7e43f194a` |
 
@@ -34,3 +35,13 @@ Heavy STARK proving can be **delegated** to an attested enclave (Intel TDX on Ph
 * [Attestation and trust](tee/attestation.md)
 * [Set up delegated TEE proving](tee/setup.md)
 * [TEE proving FAQ](tee/faq.md)
+
+## Confidential AI (testnet)
+
+Chat with an open-weight model (`gpt-oss-120b`) inside attested TEEs, with prepaid NOWPayments credits and a hosted E2EE chat UI:
+
+* [Confidential AI overview](confidential-ai/overview.md)
+* [The model (`gpt-oss-120b`)](confidential-ai/model.md)
+* [Credits and NOWPayments](confidential-ai/credits.md)
+* [Chat UI](confidential-ai/chat-ui.md)
+* [Verify Confidential AI](confidential-ai/verify.md)

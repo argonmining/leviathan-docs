@@ -6,6 +6,8 @@ Delegated TEE proving is Leviathan's answer for testnet builders who want that w
 
 This is available today for people running `leviathan-client` with `--delegate-proving`. The hosted browser wallet at [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet) remains the easiest path for ordinary WXNT sends; the TEE path is the CLI path for pioneers and engineers who need delegated proving.
 
+> **Related, but different:** Leviathan also runs **Confidential AI** inside TEEs (LLM inference, not STARK proving). See [Confidential AI overview](../confidential-ai/overview.md). Do not reuse proving endpoints or compose hashes for the AI chat path.
+
 ## Why not just a normal remote prover?
 
 Remote provers are common. Most of them ask you to trust the operator's machines. That may be acceptable for some workloads. It is a weaker story when the prove job can include sensitive transaction material and you have no way to check which binary answered you.

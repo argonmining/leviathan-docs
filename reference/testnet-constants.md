@@ -13,6 +13,21 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Transactions | [https://leviathandev.neptune.io/transactions](https://leviathandev.neptune.io/transactions) |
 | Contracts | [https://leviathandev.neptune.io/contracts](https://leviathandev.neptune.io/contracts) |
 | Chrome extension package | Pioneers Telegram pinned message (Load unpacked; not Chrome Web Store) |
+| Confidential AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
+| Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
+| Confidential AI Auth | `https://leviathan-auth.duckdns.org` |
+
+## Confidential AI
+
+| Item | Value |
+|------|-------|
+| Model id | `gpt-oss-120b` |
+| Chat cost | 1 credit per successful completion |
+| New account balance | 0 credits |
+| Default credit pack (UI) | 300 credits (`amount_cents`: 300) |
+| Payments | NOWPayments **sandbox** on testnet — do not send real funds |
+
+See [Confidential AI overview](../confidential-ai/overview.md) and [Credits and NOWPayments](../confidential-ai/credits.md).
 
 ## Assets
 
@@ -65,3 +80,5 @@ This repository (`leviathan-docs`) is structured for GitBook via `SUMMARY.md` an
 * [Wallets overview](../wallets/README.md)
 * [Send tokens](../getting-started/send-tokens.md)
 * [Bridge monitor](../bridge/README.md)
+* [Confidential AI](../confidential-ai/overview.md)
+* [TEE proving](../tee/overview.md)

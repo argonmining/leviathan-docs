@@ -11,6 +11,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 * Send assets between accounts you control
 * Monitor bridge activity between Neptune L1 and Miden L2
 * Builders with a terminal can use **`leviathan-client`** with [delegated TEE proving](../tee/overview.md)
+* Chat with [Confidential AI](../confidential-ai/overview.md) via the [hosted chat UI](../confidential-ai/chat-ui.md) (open-weight `gpt-oss-120b` in TEEs; [sandbox credits](../confidential-ai/credits.md))
 
 ## What you need
 
