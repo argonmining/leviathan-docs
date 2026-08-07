@@ -1,18 +1,17 @@
 # Coming soon on testnet
 
-Leviathan testnet already includes the explorer, **Leviathan Chrome extension** (Pioneers sideload), hosted web wallet, and bridge monitor. The item below is still queued.
+Most pioneer surfaces are already documented elsewhere. This page tracks items that are **queued** and should not be assumed live.
 
-## Decentralized exchange (DEX)
+## First-party Leviathan DEX
 
-A **testnet DEX** on the programmable layer is not live yet. When it ships, pioneers will swap assets issued on Miden using the account-and-note model, with proofs verified on-chain.
+A **Leviathan-hosted** swap UI (explorer-integrated URL, Leviathan-published contract IDs, official pair list) is **not** live yet.
 
-Expect, when announced:
+Pioneers can already swap today via the featured third-party dApp **Zoro**:
 
-* Swap UI reachable from the explorer ecosystem
-* Liquidity and pairs limited to testnet experimentation
-* Fresh documentation with contract IDs and URLs
+* [Swaps and DEX overview](../dex/overview.md)
+* [Swap with Zoro](../dex/swap-with-zoro.md)
 
-Until then, use [send tokens](../getting-started/send-tokens.md) for peer transfers. Do not assume a DEX URL exists.
+When a first-party DEX is announced, this page will shrink further and [testnet constants](../reference/testnet-constants.md) will gain the published IDs and URL.
 
 ## What is already live (do not look for it here)
 
@@ -20,6 +19,8 @@ Until then, use [send tokens](../getting-started/send-tokens.md) for peer transf
 * [Hosted web wallet](../wallets/web-wallet.md)
 * [Request testnet funds](../getting-started/request-funds.md) — ask in Pioneers Telegram
 * [Bridge monitor](../bridge/README.md)
+* [Confidential AI chat](../confidential-ai/chat-ui.md)
+* [Swaps via Zoro](../dex/swap-with-zoro.md)
 
 ## What is not changing
 
@@ -29,4 +30,4 @@ Until then, use [send tokens](../getting-started/send-tokens.md) for peer transf
 
 ## Stay updated
 
-Watch the Pioneers Telegram group for DEX availability. This page will be updated when swap contracts and URLs are published.
+Watch the Pioneers Telegram group for first-party DEX availability and for Zoro / wallet Browser tips.

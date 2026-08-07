@@ -25,7 +25,14 @@ Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) 
 2. [Request testnet funds](getting-started/request-funds.md)
 3. [Send tokens](getting-started/send-tokens.md)
 
-Hosted web wallet docs: [wallets/web-wallet.md](wallets/web-wallet.md). DEX: still [coming soon](coming-soon/README.md).
+Hosted web wallet docs: [wallets/web-wallet.md](wallets/web-wallet.md).
+
+## Swaps (testnet)
+
+Pioneers can swap via the featured **Zoro** dApp in the Leviathan Browser. A first-party Leviathan DEX URL is not published yet:
+
+* [Swaps and DEX overview](dex/overview.md)
+* [Swap with Zoro](dex/swap-with-zoro.md)
 
 ## TEE proving (testnet)
 

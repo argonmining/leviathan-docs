@@ -16,6 +16,7 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Confidential AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
 | Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
 | Confidential AI Auth | `https://leviathan-auth.duckdns.org` |
+| Zoro (featured swap dApp) | [https://app.zoroswap.com/](https://app.zoroswap.com/) |
 
 ## Confidential AI
 
@@ -28,6 +29,16 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Payments | NOWPayments **sandbox** on testnet — do not send real funds |
 
 See [Confidential AI overview](../confidential-ai/overview.md) and [Credits and NOWPayments](../confidential-ai/credits.md).
+
+## Swaps (ecosystem)
+
+| Item | Value |
+|------|-------|
+| Featured swap dApp | [Zoro](https://app.zoroswap.com/) — “Private swaps on Miden” |
+| Access | Leviathan Chrome extension → **Browser** → Zoro |
+| First-party Leviathan DEX URL | **Not published** (`/swap` on the explorer is 404) |
+
+See [Swaps and DEX overview](../dex/overview.md).
 
 ## Assets
 
@@ -81,4 +92,5 @@ This repository (`leviathan-docs`) is structured for GitBook via `SUMMARY.md` an
 * [Send tokens](../getting-started/send-tokens.md)
 * [Bridge monitor](../bridge/README.md)
 * [Confidential AI](../confidential-ai/overview.md)
+* [Swaps and DEX](../dex/overview.md)
 * [TEE proving](../tee/overview.md)

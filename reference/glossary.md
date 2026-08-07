@@ -36,6 +36,8 @@ Terms used across Leviathan testnet documentation.
 
 **Deposit (bridge)** — L1 XNT locked on Neptune corresponding to WXNT minted on Miden; shown in bridge **Deposits**.
 
+**DEX (ecosystem)** — On Leviathan testnet, pioneers swap via featured third-party dApps such as **Zoro**. A first-party Leviathan DEX is not published yet. See [Swaps and DEX](../dex/overview.md).
+
 ## E
 
 **E2EE (ACI v2)** — End-to-end encryption for Confidential AI: client seals prompts to an attested X25519 key from the gateway keyset; the metering Edge relays ciphertext. The chat UI enables this by default.
@@ -101,3 +103,5 @@ Terms used across Leviathan testnet documentation.
 **WXNT** — Wrapped XNT on Miden. Testnet programmable-layer asset; 1:1 peg intent with XNT.
 
 **XNT** — Native asset on Neptune L1.
+
+**Zoro** — Featured third-party private-swap dApp (`https://app.zoroswap.com/`) opened from the Leviathan wallet Browser. See [Swap with Zoro](../dex/swap-with-zoro.md).

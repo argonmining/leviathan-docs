@@ -15,6 +15,11 @@
 * [Install the Chrome extension](wallets/chrome-extension.md)
 * [Hosted web wallet](wallets/web-wallet.md)
 
+## Swaps and DEX
+
+* [Swaps and DEX overview](dex/overview.md)
+* [Swap with Zoro](dex/swap-with-zoro.md)
+
 ## Using the explorer
 
 * [Explorer guide](explorer/README.md)
@@ -22,7 +27,7 @@
 
 ## Coming soon
 
-* [DEX (testnet)](coming-soon/README.md)
+* [Coming soon](coming-soon/README.md)
 
 ## Technology
 

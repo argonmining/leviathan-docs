@@ -12,6 +12,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 * Monitor bridge activity between Neptune L1 and Miden L2
 * Builders with a terminal can use **`leviathan-client`** with [delegated TEE proving](../tee/overview.md)
 * Chat with [Confidential AI](../confidential-ai/overview.md) via the [hosted chat UI](../confidential-ai/chat-ui.md) (open-weight `gpt-oss-120b` in TEEs; [sandbox credits](../confidential-ai/credits.md))
+* Swap on the programmable layer via [Zoro](../dex/swap-with-zoro.md) (featured dApp in the wallet Browser; [overview](../dex/overview.md))
 
 ## What you need
 
@@ -34,7 +35,7 @@ Most pioneer activity happens on the **programmable layer**. L1 operations that 
 
 ## Work in progress
 
-This is an active testnet. Expect downtime, UI changes, and features still listed under [Coming soon](../coming-soon/README.md) (notably the DEX). Report issues in the Pioneers channel.
+This is an active testnet. Expect downtime, UI changes, and items still listed under [Coming soon](../coming-soon/README.md) (notably a **first-party** Leviathan DEX). Ecosystem swaps via [Zoro](../dex/overview.md) are available today. Report issues in the Pioneers channel.
 
 ## Next steps
 
