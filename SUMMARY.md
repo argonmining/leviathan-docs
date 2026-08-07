@@ -15,19 +15,20 @@
 * [Install the Chrome extension](wallets/chrome-extension.md)
 * [Hosted web wallet](wallets/web-wallet.md)
 
-## Swaps and DEX
-
-* [Swaps and DEX overview](dex/overview.md)
-* [Swap with Zoro](dex/swap-with-zoro.md)
-
 ## Using the explorer
 
 * [Explorer guide](explorer/README.md)
 * [Bridge monitor](bridge/README.md)
 
+## NeptuneSwap (DEX)
+
+* [NeptuneSwap overview](dex/overview.md)
+* [How to swap](dex/swap.md)
+* [Faucet and pools](dex/faucet-and-pools.md)
+
 ## Coming soon
 
-* [Coming soon](coming-soon/README.md)
+* [Still evolving](coming-soon/README.md)
 
 ## Technology
 

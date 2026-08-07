@@ -12,6 +12,7 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 | Hosted web wallet | [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet) |
 | Bridge monitor | [leviathandev.neptune.io/bridge](https://leviathandev.neptune.io/bridge) |
 | Confidential AI chat | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
+| NeptuneSwap (DEX) | [testnet.zkswap.ai](https://testnet.zkswap.ai/) |
 | Chrome extension | Pioneers Telegram (pinned package — Load unpacked) |
 | WXNT Faucet ID | `b0682b76d8939720429ec7e43f194a` |
 
@@ -25,14 +26,7 @@ Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) 
 2. [Request testnet funds](getting-started/request-funds.md)
 3. [Send tokens](getting-started/send-tokens.md)
 
-Hosted web wallet docs: [wallets/web-wallet.md](wallets/web-wallet.md).
-
-## Swaps (testnet)
-
-Pioneers can swap via the featured **Zoro** dApp in the Leviathan Browser. A first-party Leviathan DEX URL is not published yet:
-
-* [Swaps and DEX overview](dex/overview.md)
-* [Swap with Zoro](dex/swap-with-zoro.md)
+Hosted web wallet docs: [wallets/web-wallet.md](wallets/web-wallet.md). DEX: [NeptuneSwap](dex/overview.md) at [testnet.zkswap.ai](https://testnet.zkswap.ai/).
 
 ## TEE proving (testnet)
 

@@ -1,26 +1,26 @@
 # Coming soon on testnet
 
-Most pioneer surfaces are already documented elsewhere. This page tracks items that are **queued** and should not be assumed live.
+Leviathan testnet already includes the explorer, **Leviathan Chrome extension** (Pioneers sideload), hosted web wallet, bridge monitor, [Confidential AI](../confidential-ai/overview.md), and the live DEX **[NeptuneSwap](../dex/overview.md)**.
 
-## First-party Leviathan DEX
+## Still evolving
 
-A **Leviathan-hosted** swap UI (explorer-integrated URL, Leviathan-published contract IDs, official pair list) is **not** live yet.
+Expect churn on:
 
-Pioneers can already swap today via the featured third-party dApp **Zoro**:
+* NeptuneSwap pairs, pool caps, Limit-order availability, and fee UI
+* Bridge settlement parameters and monitor fields
+* Wallet UX around notes (Sync / Consume) after dApp trades
+* Mobile / store distribution (not part of public pioneer docs yet)
 
-* [Swaps and DEX overview](../dex/overview.md)
-* [Swap with Zoro](../dex/swap-with-zoro.md)
-
-When a first-party DEX is announced, this page will shrink further and [testnet constants](../reference/testnet-constants.md) will gain the published IDs and URL.
+Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a fixed table in this GitBook yet. When the team publishes them, they will land in [testnet constants](../reference/testnet-constants.md).
 
 ## What is already live (do not look for it here)
 
+* [NeptuneSwap](../dex/overview.md) — [testnet.zkswap.ai](https://testnet.zkswap.ai/)
 * [Leviathan Chrome extension](../wallets/chrome-extension.md) — Load unpacked from the Pioneers Telegram pin
 * [Hosted web wallet](../wallets/web-wallet.md)
 * [Request testnet funds](../getting-started/request-funds.md) — ask in Pioneers Telegram
 * [Bridge monitor](../bridge/README.md)
 * [Confidential AI chat](../confidential-ai/chat-ui.md)
-* [Swaps via Zoro](../dex/swap-with-zoro.md)
 
 ## What is not changing
 
@@ -30,4 +30,4 @@ When a first-party DEX is announced, this page will shrink further and [testnet 
 
 ## Stay updated
 
-Watch the Pioneers Telegram group for first-party DEX availability and for Zoro / wallet Browser tips.
+Watch the Pioneers Telegram group for redeploys and wallet package updates.

@@ -16,7 +16,9 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Confidential AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
 | Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
 | Confidential AI Auth | `https://leviathan-auth.duckdns.org` |
-| Zoro (featured swap dApp) | [https://app.zoroswap.com/](https://app.zoroswap.com/) |
+| NeptuneSwap (DEX) | [https://testnet.zkswap.ai/](https://testnet.zkswap.ai/) |
+| NeptuneSwap faucet | [https://testnet.zkswap.ai/faucet](https://testnet.zkswap.ai/faucet) |
+| NeptuneSwap pools | [https://testnet.zkswap.ai/pools](https://testnet.zkswap.ai/pools) |
 
 ## Confidential AI
 
@@ -29,16 +31,6 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Payments | NOWPayments **sandbox** on testnet — do not send real funds |
 
 See [Confidential AI overview](../confidential-ai/overview.md) and [Credits and NOWPayments](../confidential-ai/credits.md).
-
-## Swaps (ecosystem)
-
-| Item | Value |
-|------|-------|
-| Featured swap dApp | [Zoro](https://app.zoroswap.com/) — “Private swaps on Miden” |
-| Access | Leviathan Chrome extension → **Browser** → Zoro |
-| First-party Leviathan DEX URL | **Not published** (`/swap` on the explorer is 404) |
-
-See [Swaps and DEX overview](../dex/overview.md).
 
 ## Assets
 
@@ -74,8 +66,11 @@ This is the faucet **contract** id on the programmable layer, not a private key 
 
 * Pioneers request funds in the **Leviathan Pioneers** Telegram group; operators mint WXNT.
 * Hosted **Mint Tokens** panel is operator-only (requires faucet private key).
+* [NeptuneSwap faucet](../dex/faucet-and-pools.md) mints **AMM test tokens** into a connected wallet (separate from WXNT operator mint).
 
-See [Request testnet funds](../getting-started/request-funds.md).
+NeptuneSwap pool / swap faucet **contract IDs** are not published in this constants table yet.
+
+See [Request testnet funds](../getting-started/request-funds.md) and [NeptuneSwap overview](../dex/overview.md).
 
 ## Bridge monitor refresh
 
@@ -92,5 +87,5 @@ This repository (`leviathan-docs`) is structured for GitBook via `SUMMARY.md` an
 * [Send tokens](../getting-started/send-tokens.md)
 * [Bridge monitor](../bridge/README.md)
 * [Confidential AI](../confidential-ai/overview.md)
-* [Swaps and DEX](../dex/overview.md)
+* [NeptuneSwap](../dex/overview.md)
 * [TEE proving](../tee/overview.md)

@@ -1,46 +1,54 @@
-# Swaps and DEX on testnet
+# NeptuneSwap (testnet DEX)
 
-Pioneers can already **swap assets on the programmable layer** through a featured third-party DEX. A **first-party Leviathan DEX** (hosted under `leviathandev.neptune.io`, with Leviathan-published contract IDs) is **not** live yet.
+**NeptuneSwap** is the live private DEX on Leviathan testnet. It was announced to Pioneers as a private, post-quantum DEX for swapping on the programmable layer.
 
-| Path | Status | How pioneers use it |
-|------|--------|---------------------|
-| **Zoro** (`app.zoroswap.com`) | Live as a featured dApp in the Leviathan wallet Browser | Open Browser → Zoro → connect wallet → trade |
-| **First-party Leviathan DEX** | Not published | No explorer `/swap` route; no official contract IDs in this documentation |
+| | |
+|--|--|
+| **URL** | [https://testnet.zkswap.ai/](https://testnet.zkswap.ai/) |
+| **Product** | NeptuneSwap – DeFi on Leviathan |
+| **Network** | Leviathan testnet (UI footer shows e.g. `Leviathan testnet 0.15.0`) |
+| **Status** | Live for pioneers — UI, pools, and pairs can change without notice |
 
-This section documents what you can do **today**, with honest boundaries.
+This is **not** a route on [leviathandev.neptune.io](https://leviathandev.neptune.io/) (paths like `/swap` there remain 404). Use the `testnet.zkswap.ai` host above.
 
-## What “DEX” means here
+## What you can do
 
-On Leviathan testnet, swaps run as **Miden account / note transactions**. Your wallet constructs and proves (or confirms) the transaction; the network verifies proofs. That is the same proving model as [send tokens](../getting-started/send-tokens.md), applied to a trading dApp instead of a peer transfer.
+| Page | Path | Purpose |
+|------|------|---------|
+| **Swap** | `/` | Market swaps (and a **Limit** tab when the deployment enables it) |
+| **Pools** | `/pools` | Browse liquidity pools (TVL / cap, pool size); connect a wallet for your positions |
+| **Faucet** | `/faucet` | Mint **test** tokens for the NeptuneSwap AMM into a connected wallet |
+| **History** | `/history` | Activity for your connected wallet (swaps, deposits, withdrawals, limit orders) |
 
-There is **no** Leviathan-operated AMM page on the explorer today (`/swap` and `/dex` on [leviathandev.neptune.io](https://leviathandev.neptune.io/) return 404).
+Pricing on swaps is described in-product as a **PMM curve** (Pragma oracle price + pool inventory), executed on-chain in the Leviathan VM, minus pool fees. Exact pairs and depth change as pools are registered — do not treat any pair list in chat as permanent.
 
-## Zoro (available now)
+## Wallet
 
-[Zoro](https://app.zoroswap.com/) is listed in the Leviathan Chrome extension as a **featured DeFi** dApp with the tagline “Private swaps on Miden.” That listing is the authoritative in-product pointer pioneers should use.
+1. Install and unlock the [Leviathan Chrome extension](../wallets/chrome-extension.md).
+2. Open [testnet.zkswap.ai](https://testnet.zkswap.ai/) and click **Connect**.
+3. Choose **Leviathan Wallet** when prompted and approve in the extension.
 
-* **URL:** [https://app.zoroswap.com/](https://app.zoroswap.com/)
-* **Access:** Leviathan extension → **Browser** tab → open **Zoro** (or paste the URL)
-* **Wallet connection:** Connect when the dApp prompts. Leviathan is the pioneer wallet for this testnet path; follow the connect UI the dApp shows.
-* **After a swap:** return to the wallet, **Sync**, then **Consume** claimable notes so balances update
+You need spendable testnet assets first ([request funds](../getting-started/request-funds.md) and/or use the [DEX faucet](faucet-and-pools.md)).
 
-Step-by-step: [Swap with Zoro](swap-with-zoro.md).
+## Notes after every trade (required)
 
-Zoro is a **third-party** application. Pool availability, RPC reachability, and UI copy are controlled by that product. If the dApp reports vault / RPC errors, wait or ask in Pioneers — that is not an explorer outage and not a missing Leviathan `/swap` page.
+Swaps, minting, and transfers create **notes**. Balances in the wallet often stay at zero until you:
 
-## First-party Leviathan DEX (not live)
+1. **Sync** the wallet with the chain
+2. **Consume** (claim) claimable notes so assets move into spendable balance
 
-When a Leviathan-hosted DEX ships, expect:
+Pioneer feedback after going live repeatedly hit this: the swap can succeed while the home screen still shows zero for ETH, SOL, and other assets. Treat Sync → Consume as part of the trade, not optional cleanup. NeptuneSwap activity copy also points you to **claim in the wallet**.
 
-* An announced URL in Pioneers Telegram and an update to this documentation
-* Published contract / faucet IDs in [testnet constants](../reference/testnet-constants.md)
-* Pioneer-facing swap UI integrated with the same wallet flows already used for send / consume
+## What this documentation does not publish
 
-Until those are published, **do not assume** a native DEX URL or pair list exists.
+* On-chain pool / faucet **contract IDs** (not published as an official constants table yet — ask in Pioneers if you need a specific id)
+* Guaranteed limit-order availability (the Limit tab can show unavailable when the deployment has no read service / matching note scripts)
+* Mainnet economics or permanent TVL figures from the pools UI
 
 ## Related
 
-* [Swap with Zoro](swap-with-zoro.md)
-* [Install the Chrome extension](../wallets/chrome-extension.md)
-* [Send tokens](../getting-started/send-tokens.md)
-* [Testnet overview](../getting-started/testnet-overview.md)
+* [How to swap](swap.md)
+* [Faucet and pools](faucet-and-pools.md)
+* [Chrome extension](../wallets/chrome-extension.md)
+* [Send tokens](../getting-started/send-tokens.md) (peer transfers, not AMM swaps)
+* [Testnet constants](../reference/testnet-constants.md)

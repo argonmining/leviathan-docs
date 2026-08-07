@@ -36,8 +36,6 @@ Terms used across Leviathan testnet documentation.
 
 **Deposit (bridge)** — L1 XNT locked on Neptune corresponding to WXNT minted on Miden; shown in bridge **Deposits**.
 
-**DEX (ecosystem)** — On Leviathan testnet, pioneers swap via featured third-party dApps such as **Zoro**. A first-party Leviathan DEX is not published yet. See [Swaps and DEX](../dex/overview.md).
-
 ## E
 
 **E2EE (ACI v2)** — End-to-end encryption for Confidential AI: client seals prompts to an attested X25519 key from the gateway keyset; the metering Edge relays ciphertext. The chat UI enables this by default.
@@ -62,7 +60,9 @@ Terms used across Leviathan testnet documentation.
 
 **Neptune** — Privacy-oriented base layer (L1) for native **XNT**.
 
-**Note** — Miden message that can carry assets and consumption rules; accounts interact by creating and consuming notes.
+**NeptuneSwap** — Live private DEX on Leviathan testnet at [testnet.zkswap.ai](https://testnet.zkswap.ai/). Connect the Leviathan Chrome extension; after swaps use **Sync** and **Consume**. See [NeptuneSwap overview](../dex/overview.md).
+
+**Note** — Miden message that can carry assets and consumption rules; accounts interact by creating and consuming notes. Swaps and faucet mints create notes that must be consumed before balances look updated.
 
 **Nonce** — Counter associated with an account or contract; advances as state updates are executed.
 
@@ -73,6 +73,8 @@ Terms used across Leviathan testnet documentation.
 **Phala Cloud** — Hosting platform for Confidential VMs used by the Leviathan testnet TEE prover (Intel TDX / dstack).
 
 **Pioneer** — Early testnet participant using Leviathan interfaces and providing feedback.
+
+**PMM (NeptuneSwap)** — Pricing model used by NeptuneSwap pools (Pragma oracle price + pool inventory), run on-chain in the Leviathan VM.
 
 **Proof (STARK)** — Succinct argument that a computation or transaction followed protocol rules, verified without exposing private inputs.
 
@@ -103,5 +105,3 @@ Terms used across Leviathan testnet documentation.
 **WXNT** — Wrapped XNT on Miden. Testnet programmable-layer asset; 1:1 peg intent with XNT.
 
 **XNT** — Native asset on Neptune L1.
-
-**Zoro** — Featured third-party private-swap dApp (`https://app.zoroswap.com/`) opened from the Leviathan wallet Browser. See [Swap with Zoro](../dex/swap-with-zoro.md).

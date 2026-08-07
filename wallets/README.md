@@ -18,10 +18,7 @@ See [Hosted web wallet](web-wallet.md).
 
 * **iOS / Android** builds — internal only; not part of the public pioneer docs.
 * **Desktop (Tauri)** — not documented as a pioneer distribution path on this page.
-
-## Swaps
-
-Use the extension **Browser** tab to open featured dApps. For trading today, see [Swap with Zoro](../dex/swap-with-zoro.md). A first-party Leviathan DEX is still [coming soon](../coming-soon/README.md).
+* **DEX** — use **[NeptuneSwap](../dex/overview.md)** at [testnet.zkswap.ai](https://testnet.zkswap.ai/) (connect Leviathan Wallet).
 
 ## Address formats (important)
 

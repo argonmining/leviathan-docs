@@ -2,7 +2,7 @@
 
 Testnet WXNT has **no real-world value**. Pioneers receive funds by joining the **Leviathan Pioneers** Telegram group and asking the team to mint to their address.
 
-There is no public self-serve faucet in the pioneer docs. Ignore in-app **Faucet** buttons unless the team explicitly tells you to use a different process.
+There is no public self-serve **WXNT** faucet. Ignore hosted-wallet **Mint Tokens** unless you are an operator. For **AMM swap tokens**, use the separate [NeptuneSwap faucet](../dex/faucet-and-pools.md) at [testnet.zkswap.ai/faucet](https://testnet.zkswap.ai/faucet).
 
 ## Step 1 — Join Leviathan Pioneers
 
