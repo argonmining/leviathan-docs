@@ -11,10 +11,10 @@ Use this when you want a browser chat experience with self-serve signup, NOWPaym
 | Capability | Behavior |
 |------------|----------|
 | Account | **Get started** calls Auth signup and stores the `lev_` key in **IndexedDB** (not shown in the UI after creation) |
-| Backup | **Export backup** downloads a JSON file containing the key; **Restore** on the gate imports it |
-| Credits | **Buy credits** opens NOWPayments; **Refresh balance** re-reads Auth |
+| Backup | **Export backup** downloads a JSON file with the **API key only** — not chats. **Restore** on the gate imports that key |
+| Credits | **Buy credits** opens NOWPayments (sandbox: pick a coin → Next → wait ~60s, don’t send real funds); **Refresh balance** re-reads Auth |
 | Chat | Each send fetches attestation, seals messages (ACI E2EE v2), posts to Edge, unseals the reply |
-| History | Conversations live in IndexedDB on **this browser only** |
+| History | Conversations live in IndexedDB on **this browser only**. **Export PDF** saves the open thread (print dialog → Save as PDF) |
 | Theme | Light / dark toggle (persisted in `localStorage`) |
 | Model | `gpt-oss-120b` (see [The model](model.md)) |
 
