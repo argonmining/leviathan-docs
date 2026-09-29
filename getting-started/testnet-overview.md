@@ -5,7 +5,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 ## What you can do today
 
 * Browse blocks, transactions, accounts, and contracts on the [explorer](https://leviathandev.neptune.io/)
-* Install the **[Leviathan Chrome extension](../wallets/chrome-extension.md)** ([download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip))
+* Install the **[Leviathan Chrome extension](../wallets/chrome-extension.md)** ([download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip))
 * Optionally use the [hosted web wallet](https://leviathandev.neptune.io/wallet)
 * Get testnet funds by asking in the **Leviathan Pioneers** Telegram group
 * Send assets between accounts you control
@@ -17,7 +17,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 ## What you need
 
 * Google Chrome (for the extension) or a modern browser (for the hosted wallet / explorer / Private AI)
-* The [official Chrome extension zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip)
+* The [official Chrome extension zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip)
 * Time to Sync and Consume notes after funding
 
 ## Testnet vs mainnet

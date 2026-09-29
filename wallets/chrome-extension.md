@@ -2,7 +2,7 @@
 
 The **Leviathan** Chrome extension is the wallet for Leviathan public testnet. There is no Chrome Web Store listing yet. Install the official zip with **Load unpacked**.
 
-<a href="https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip" class="button primary">Download Leviathan Chrome v1.14.0</a>
+<a href="https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip" class="button primary">Download Leviathan Chrome v1.14.0</a>
 
 ## Before you start
 
@@ -13,17 +13,17 @@ The extension is built for **testnet**. Treat every balance as worthless test as
 
 ## Step 1 — Download the package
 
-1. Download [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip) (v1.14.0).
-2. **Fully unzip** it. Chrome must load a folder that contains `manifest.json`, not the zip itself.
+1. Download [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip) (v1.14.0, build `9af28d25`).
+2. **Fully unzip** it. Open the **`leviathan`** folder. That folder contains `manifest.json`. Chrome must load that folder, not the zip.
 
-Do not install “Leviathan” wallets from random third parties. The release page is [chrome-v1.14.0-2026-07-17](https://github.com/argonmining/leviathan-docs/releases/tag/chrome-v1.14.0-2026-07-17).
+Do not install “Leviathan” wallets from random third parties. The release page is [chrome-v1.14.0-2026-09-29](https://github.com/argonmining/leviathan-docs/releases/tag/chrome-v1.14.0-2026-09-29).
 
 ## Step 2 — Load unpacked in Chrome
 
 1. Open `chrome://extensions` in Chrome.
 2. Turn on **Developer mode** (top right).
 3. Click **Load unpacked**.
-4. Select the unzipped extension folder (the directory that contains `manifest.json`).
+4. Select the unzipped **`leviathan`** folder (the directory that contains `manifest.json`).
 5. Confirm an extension named **Leviathan** appears in the list.
 6. Pin it from the puzzle-piece extensions menu for easier access.
 

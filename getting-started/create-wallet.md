@@ -4,7 +4,7 @@ For pioneers, the default path is the **Leviathan Chrome extension**. The hosted
 
 ## Recommended: Chrome extension
 
-Follow [Install the Chrome extension](../wallets/chrome-extension.md): [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip), **Load unpacked** in Chrome, create a wallet, and copy your **bech32** receive address.
+Follow [Install the Chrome extension](../wallets/chrome-extension.md): [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip), **Load unpacked** in Chrome, create a wallet, and copy your **bech32** receive address.
 
 Then:
 

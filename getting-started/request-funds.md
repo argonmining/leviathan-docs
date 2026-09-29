@@ -56,7 +56,7 @@ That is the on-chain faucet **contract** id used when specifying which asset to 
 ## What not to use
 
 * **Mint Tokens** on the hosted web wallet — operator tooling; requires the faucet private key.
-* Random third-party wallet downloads. Use only the [official Chrome zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip).
+* Random third-party wallet downloads. Use only the [official Chrome zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip).
 * Mainnet addresses — pioneer wallets are **testnet**.
 
 ## Troubleshooting
