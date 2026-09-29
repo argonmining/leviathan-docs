@@ -44,7 +44,7 @@ Builders can hold value privately on L1, bring working capital to L2 as WXNT, an
 The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/) exercises:
 
 * Miden indexing and explorer UX
-* Leviathan Chrome extension ([download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip)) and hosted browser wallet
+* Leviathan Chrome extension ([download](../wallets/chrome-extension.md)) and hosted browser wallet
 * WXNT funding via Pioneers Telegram (operator mint) and peer-to-peer sends
 * Bridge visibility and settlement plumbing
 * Delegated STARK proving in an attested TEE for `leviathan-client` workflows

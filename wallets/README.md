@@ -6,7 +6,7 @@ Pioneers and public testers use wallets on the **programmable layer** (Miden acc
 
 The **Leviathan Chrome extension** is the primary wallet. Download the official zip and load it unpacked. It is **not** on the Chrome Web Store yet.
 
-[Download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip) · [Install steps](chrome-extension.md)
+[Download the extension](chrome-extension.md)
 
 ## Also available: hosted web wallet
 

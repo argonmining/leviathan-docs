@@ -16,7 +16,7 @@ Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a f
 ## What is already live (do not look for it here)
 
 * [NeptuneSwap](../dex/overview.md) — [testnet.zkswap.ai](https://testnet.zkswap.ai/)
-* [Leviathan Chrome extension](../wallets/chrome-extension.md) — [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip)
+* [Leviathan Chrome extension](../wallets/chrome-extension.md) — download the zip on that page
 * [Hosted web wallet](../wallets/web-wallet.md)
 * [Request testnet funds](../getting-started/request-funds.md)
 * [Bridge monitor](../bridge/README.md)

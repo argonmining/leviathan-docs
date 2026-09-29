@@ -12,7 +12,7 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Blocks | [https://leviathandev.neptune.io/blocks](https://leviathandev.neptune.io/blocks) |
 | Transactions | [https://leviathandev.neptune.io/transactions](https://leviathandev.neptune.io/transactions) |
 | Contracts | [https://leviathandev.neptune.io/contracts](https://leviathandev.neptune.io/contracts) |
-| Chrome extension v1.14.0 | [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip) (Load unpacked; not Chrome Web Store) |
+| Chrome extension v1.14.0 | [Download from the install page](../wallets/chrome-extension.md) |
 | Private AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
 | Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
 | Confidential AI Auth | `https://leviathan-auth.duckdns.org` |
@@ -59,7 +59,7 @@ This is the faucet **contract** id on the programmable layer, not a private key 
 ## Network status
 
 * Explorer UI displays a **testnet** badge.
-* Pioneer Chrome extension builds target **testnet**. The public download is [v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip).
+* Pioneer Chrome extension builds target **testnet**. Download it from [Install the Chrome extension](../wallets/chrome-extension.md).
 * Assets have **no real-world value**.
 
 ## Funding model (testnet)

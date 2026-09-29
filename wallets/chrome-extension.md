@@ -1,8 +1,10 @@
 # Install the Leviathan Chrome extension
 
-The **Leviathan** Chrome extension is the wallet for Leviathan public testnet. There is no Chrome Web Store listing yet. Install the official zip with **Load unpacked**.
+The **Leviathan** Chrome extension is the wallet for Leviathan public testnet. Download it here, unzip it, and load it in Chrome. There is no Chrome Web Store listing yet.
 
-<a href="https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip" class="button primary">Download Leviathan Chrome v1.14.0</a>
+{% file src="../.gitbook/assets/leviathan-chrome-testnet.zip" %}
+Leviathan Chrome v1.14.0 (build 9af28d25)
+{% endfile %}
 
 ## Before you start
 
@@ -13,10 +15,8 @@ The extension is built for **testnet**. Treat every balance as worthless test as
 
 ## Step 1 — Download the package
 
-1. Download [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip) (v1.14.0, build `9af28d25`).
+1. Click the **Leviathan Chrome** file at the top of this page and download the zip.
 2. **Fully unzip** it. Open the **`leviathan`** folder. That folder contains `manifest.json`. Chrome must load that folder, not the zip.
-
-Do not install “Leviathan” wallets from random third parties. The release page is [chrome-v1.14.0-2026-09-29](https://github.com/argonmining/leviathan-docs/releases/tag/chrome-v1.14.0-2026-09-29).
 
 ## Step 2 — Load unpacked in Chrome
 

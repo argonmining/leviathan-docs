@@ -4,7 +4,10 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 
 > **Status:** Public testnet. Testnet assets have **no real-world value**. This documentation describes the public experience on [leviathandev.neptune.io](https://leviathandev.neptune.io).
 
-<a href="https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip" class="button primary">Download Chrome extension</a>
+{% file src=".gitbook/assets/leviathan-chrome-testnet.zip" %}
+Leviathan Chrome extension v1.14.0
+{% endfile %}
+
 <a href="https://ai-tee-leviathan.up.railway.app/" class="button secondary">Open Private AI</a>
 
 ## Quick links
@@ -16,7 +19,7 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 | Bridge monitor | [leviathandev.neptune.io/bridge](https://leviathandev.neptune.io/bridge) |
 | Private AI (TEE chat) | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
 | NeptuneSwap (DEX) | [testnet.zkswap.ai](https://testnet.zkswap.ai/) |
-| Chrome extension (v1.14.0) | [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip) |
+| Chrome extension (v1.14.0) | [Download on the install page](wallets/chrome-extension.md) |
 | WXNT Faucet ID | `b0682b76d8939720429ec7e43f194a` |
 
 ## What is Leviathan?
@@ -25,7 +28,7 @@ Leviathan combines a **privacy focused base layer** (Neptune, native asset XNT) 
 
 ## Start here
 
-1. [Install the Leviathan Chrome extension](wallets/chrome-extension.md) — [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-09-29/leviathan-chrome-testnet.zip)
+1. [Install the Leviathan Chrome extension](wallets/chrome-extension.md) — download the zip on that page
 2. [Request testnet funds](getting-started/request-funds.md)
 3. [Send tokens](getting-started/send-tokens.md)
 4. [Chat with Private AI](https://ai-tee-leviathan.up.railway.app/) — open-weight models inside attested TEEs
