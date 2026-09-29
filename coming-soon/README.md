@@ -16,11 +16,11 @@ Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a f
 ## What is already live (do not look for it here)
 
 * [NeptuneSwap](../dex/overview.md) — [testnet.zkswap.ai](https://testnet.zkswap.ai/)
-* [Leviathan Chrome extension](../wallets/chrome-extension.md) — Load unpacked from the Pioneers Telegram pin
+* [Leviathan Chrome extension](../wallets/chrome-extension.md) — [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip)
 * [Hosted web wallet](../wallets/web-wallet.md)
-* [Request testnet funds](../getting-started/request-funds.md) — ask in Pioneers Telegram
+* [Request testnet funds](../getting-started/request-funds.md)
 * [Bridge monitor](../bridge/README.md)
-* [Confidential AI chat](../confidential-ai/chat-ui.md)
+* [Private AI chat](https://ai-tee-leviathan.up.railway.app/)
 
 ## What is not changing
 

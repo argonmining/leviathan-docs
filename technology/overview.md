@@ -44,11 +44,11 @@ Builders can hold value privately on L1, bring working capital to L2 as WXNT, an
 The public testnet at [leviathandev.neptune.io](https://leviathandev.neptune.io/) exercises:
 
 * Miden indexing and explorer UX
-* Leviathan Chrome extension (Pioneers sideload) and hosted browser wallet
+* Leviathan Chrome extension ([download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip)) and hosted browser wallet
 * WXNT funding via Pioneers Telegram (operator mint) and peer-to-peer sends
 * Bridge visibility and settlement plumbing
 * Delegated STARK proving in an attested TEE for `leviathan-client` workflows
-* Confidential AI: open-weight `gpt-oss-120b` inference in TDX / GPU-TEE with prepaid credits and an E2EE chat UI
+* Private AI: open-weight models in TDX / GPU-TEE at [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/), with E2EE prompts
 * Private DEX trading via [NeptuneSwap](../dex/overview.md) on the programmable layer
 
 It does **not** yet imply production-ready mainnet economics or final bridge parameters.

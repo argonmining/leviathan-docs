@@ -12,8 +12,8 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Blocks | [https://leviathandev.neptune.io/blocks](https://leviathandev.neptune.io/blocks) |
 | Transactions | [https://leviathandev.neptune.io/transactions](https://leviathandev.neptune.io/transactions) |
 | Contracts | [https://leviathandev.neptune.io/contracts](https://leviathandev.neptune.io/contracts) |
-| Chrome extension package | Pioneers Telegram pinned message (Load unpacked; not Chrome Web Store) |
-| Confidential AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
+| Chrome extension v1.14.0 | [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip) (Load unpacked; not Chrome Web Store) |
+| Private AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
 | Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
 | Confidential AI Auth | `https://leviathan-auth.duckdns.org` |
 | NeptuneSwap (DEX) | [https://testnet.zkswap.ai/](https://testnet.zkswap.ai/) |
@@ -24,13 +24,13 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 
 | Item | Value |
 |------|-------|
-| Model id | `gpt-oss-120b` |
+| Default model | `qwen3.8-27b` (picker lists the live Edge catalog) |
 | Chat cost | 1 credit per successful completion |
 | New account balance | 0 credits |
-| Default credit pack (UI) | 300 credits (`amount_cents`: 300) |
-| Payments | NOWPayments **sandbox** on testnet — do not send real funds |
+| Default credit pack (UI) | 300 credits |
+| Payments | Wallet (on-chain, about 90 seconds to credit) or Stripe sandbox card `4242 4242 4242 4242` |
 
-See [Confidential AI overview](../confidential-ai/overview.md) and [Credits and NOWPayments](../confidential-ai/credits.md).
+See [Confidential AI overview](../confidential-ai/overview.md) and [Credits](../confidential-ai/credits.md).
 
 ## Assets
 
@@ -59,7 +59,7 @@ This is the faucet **contract** id on the programmable layer, not a private key 
 ## Network status
 
 * Explorer UI displays a **testnet** badge.
-* Pioneer Chrome extension builds target **testnet**.
+* Pioneer Chrome extension builds target **testnet**. The public download is [v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip).
 * Assets have **no real-world value**.
 
 ## Funding model (testnet)

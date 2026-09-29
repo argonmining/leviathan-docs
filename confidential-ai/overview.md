@@ -17,9 +17,9 @@ Both rely on hardware isolation and attestation. Neither replaces on-chain STARK
 
 ## What you get
 
-* **Self-serve accounts** — `POST /v1/signup` issues a `lev_…` API key. No operator mints keys for you.
+* **Two ways in** — **Log in with wallet** (Leviathan extension) or **Get started** (`lev_` API key).
 * **Prepaid credits** — each successful chat completion costs **1 credit**. New accounts start at **0**.
-* **Open-weight model** — the live model id is `gpt-oss-120b` (OpenAI’s Apache 2.0 open-weight release). See [The model](model.md).
+* **Open-weight catalog** — default model is `qwen3.8-27b`. The UI lists the live catalog. `gpt-oss-120b` is no longer served. See [Models](model.md).
 * **Attestable TEEs** — gateway attestation is a public surface; model-node attestation is documented for builders who verify with the FOSS toolkit.
 * **E2EE (ACI v2)** — the hosted chat UI encrypts prompts to the attested enclave keyset so the Edge relays ciphertext only. See [Chat UI](chat-ui.md).
 * **Per-key receipts** — successful chats return an `x-receipt-id`; receipts are private to the key that created them.
@@ -34,8 +34,8 @@ sequenceDiagram
   participant GW as TDX gateway TEE
   participant Model as GPU-TEE model node
 
-  UI->>Auth: Signup / buy credits (NOWPayments)
-  Auth-->>UI: lev_ key (once) / checkout URL
+  UI->>Auth: Signup or wallet session / buy credits
+  Auth-->>UI: lev_ key or wallet session / checkout or on-chain order
   UI->>GW: Attestation report (public)
   UI->>UI: Seal prompt (E2EE v2)
   UI->>Edge: Bearer lev_ + ciphertext chat
@@ -51,7 +51,7 @@ sequenceDiagram
 | Chat UI | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
 | Edge (gateway front) | `https://leviathan-edge.duckdns.org` |
 | Auth (signup, credits, validate) | `https://leviathan-auth.duckdns.org` |
-| Model id | `gpt-oss-120b` |
+| Default model | `qwen3.8-27b` |
 
 The UI talks to Edge and Auth through a **same-origin proxy** on the UI host (`/gw`, `/auth`) so browsers do not need CORS on those services.
 
@@ -65,14 +65,13 @@ The UI talks to Edge and Auth through a **same-origin proxy** on the UI host (`/
 
 **What they are not**
 
-* Not a substitute for careful key backup. The auth service stores only the **SHA-256 hash** of your API key and cannot re-show the secret.
+* Not a substitute for careful key backup. The auth service stores only the **SHA-256 hash** of an API key and cannot re-show the secret.
 * Not free unlimited inference. Credits are prepaid; unpaid chats return HTTP `402`.
-* Not Chrome-wallet login. The Leviathan extension authenticates chain accounts; Confidential AI authenticates `lev_` API keys. Binding those identities is future work.
-* Not a claim that operators disappear. Auth, Edge, and payment webhooks are still operated infrastructure.
+* Not a claim that operators disappear. Auth, Edge, and payment infrastructure are still operated.
 
 ## Start here
 
-1. [Use the Confidential AI chat UI](chat-ui.md) — fastest path for pioneers.
-2. [Buy credits (NOWPayments testnet)](credits.md) — sandbox checkout without sending real funds.
-3. [The model (`gpt-oss-120b`)](model.md) — what FOSS model you are talking to.
+1. [Open Private AI](https://ai-tee-leviathan.up.railway.app/) — or read the [chat UI](chat-ui.md) guide.
+2. [Buy credits](credits.md) — wallet or Stripe sandbox card.
+3. [Models](model.md) — default `qwen3.8-27b`.
 4. [Verify Confidential AI](verify.md) — optional builder path to check attestation and E2EE yourself.

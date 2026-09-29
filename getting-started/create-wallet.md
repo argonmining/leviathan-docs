@@ -4,7 +4,7 @@ For pioneers, the default path is the **Leviathan Chrome extension**. The hosted
 
 ## Recommended: Chrome extension
 
-Follow [Install the Chrome extension](../wallets/chrome-extension.md): get the package from the **Pioneers Telegram** pin, **Load unpacked** in Chrome, create a wallet, and copy your **bech32** receive address.
+Follow [Install the Chrome extension](../wallets/chrome-extension.md): [download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip), **Load unpacked** in Chrome, create a wallet, and copy your **bech32** receive address.
 
 Then:
 
@@ -26,9 +26,10 @@ Short version:
 
 | Need | Use |
 |------|-----|
-| Primary pioneer experience | Chrome extension |
+| Chrome extension (primary) | [Download v1.14.0](../wallets/chrome-extension.md) |
 | No extension install possible right now | Hosted web wallet |
-| Mobile app store install | Not offered in public pioneer docs (internal only) |
+| Private AI chat | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
+| Mobile app store install | Not offered on public testnet yet |
 
 ## Next step
 

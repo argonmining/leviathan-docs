@@ -1,16 +1,16 @@
 # Wallets on Leviathan testnet
 
-Pioneers use wallets on the **programmable layer** (Miden accounts, WXNT, notes). Leviathan testnet is **not** mainnet. Assets have no real-world value.
+Pioneers and public testers use wallets on the **programmable layer** (Miden accounts, WXNT, notes). Leviathan testnet is **not** mainnet. Assets have no real-world value.
 
 ## Recommended: Leviathan Chrome extension
 
-The **Leviathan Chrome extension** is the primary pioneer wallet. It is distributed as a **developer (Load unpacked)** package through the **Leviathan Pioneers Telegram group** (see the pinned message). It is **not** on the Chrome Web Store, and the wallet repository is **not** public.
+The **Leviathan Chrome extension** is the primary wallet. Download the official zip and load it unpacked. It is **not** on the Chrome Web Store yet.
 
-See [Install the Chrome extension](chrome-extension.md).
+[Download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip) · [Install steps](chrome-extension.md)
 
 ## Also available: hosted web wallet
 
-The explorer hosts a browser wallet at [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet). It remains a documented option for pioneers who prefer a tab-only setup. The Chrome extension is the product target for ongoing pioneer UX.
+The explorer hosts a browser wallet at [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet). It remains a documented option if you cannot install the extension. The Chrome extension is the product target.
 
 See [Hosted web wallet](web-wallet.md).
 

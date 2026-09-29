@@ -5,24 +5,24 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 ## What you can do today
 
 * Browse blocks, transactions, accounts, and contracts on the [explorer](https://leviathandev.neptune.io/)
-* Use the **Leviathan Chrome extension** (primary pioneer wallet — sideload from Pioneers Telegram)
+* Install the **[Leviathan Chrome extension](../wallets/chrome-extension.md)** ([download v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip))
 * Optionally use the [hosted web wallet](https://leviathandev.neptune.io/wallet)
 * Get testnet funds by asking in the **Leviathan Pioneers** Telegram group
 * Send assets between accounts you control
 * Monitor bridge activity between Neptune L1 and Miden L2
 * Builders with a terminal can use **`leviathan-client`** with [delegated TEE proving](../tee/overview.md)
-* Chat with [Confidential AI](../confidential-ai/overview.md) via the [hosted chat UI](../confidential-ai/chat-ui.md) (open-weight `gpt-oss-120b` in TEEs; [sandbox credits](../confidential-ai/credits.md))
+* Chat with [Private AI](https://ai-tee-leviathan.up.railway.app/) — open-weight models inside attested TEEs, E2EE prompts, wallet or card credits ([chat UI](../confidential-ai/chat-ui.md))
 * Swap on **[NeptuneSwap](../dex/overview.md)** at [testnet.zkswap.ai](https://testnet.zkswap.ai/) (then **Sync** and **Consume** notes in the wallet)
 
 ## What you need
 
-* Google Chrome (for the extension) or a modern browser (for the hosted wallet / explorer)
-* Access to the **Leviathan Pioneers Telegram** group for the pinned extension package
+* Google Chrome (for the extension) or a modern browser (for the hosted wallet / explorer / Private AI)
+* The [official Chrome extension zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip)
 * Time to Sync and Consume notes after funding
 
 ## Testnet vs mainnet
 
-The explorer shows a **testnet** badge. Pioneer wallet builds are aimed at testnet. Do not expect mainnet addresses, assets, or balances to work here.
+The explorer shows a **testnet** badge. Wallet builds are aimed at testnet. Do not expect mainnet addresses, assets, or balances to work here.
 
 ## Assets on testnet
 

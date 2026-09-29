@@ -47,8 +47,8 @@
 ## Confidential AI
 
 * [Confidential AI overview](confidential-ai/overview.md)
-* [The model (`gpt-oss-120b`)](confidential-ai/model.md)
-* [Credits and NOWPayments](confidential-ai/credits.md)
+* [Models](confidential-ai/model.md)
+* [Credits](confidential-ai/credits.md)
 * [Chat UI](confidential-ai/chat-ui.md)
 * [Verify Confidential AI](confidential-ai/verify.md)
 

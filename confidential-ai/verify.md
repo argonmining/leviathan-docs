@@ -9,7 +9,7 @@ Leviathan publishes a FOSS verify toolkit (separate repository) with scripts tha
 ```text
 GATEWAY_URL  https://leviathan-edge.duckdns.org
 AUTH_URL     https://leviathan-auth.duckdns.org
-MODEL        gpt-oss-120b
+MODEL        qwen3.8-27b
 ```
 
 ## What you can prove
@@ -46,5 +46,5 @@ Obtain the toolkit from the team’s published verify repository / release notes
 
 * [Confidential AI overview](overview.md)
 * [Chat UI](chat-ui.md)
-* [Credits and NOWPayments](credits.md)
+* [Credits](credits.md)
 * [TEE proving attestation](../tee/attestation.md) — related vocabulary for a different TEE workload (STARK proving)

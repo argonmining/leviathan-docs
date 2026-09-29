@@ -22,13 +22,13 @@ Terms used across Leviathan testnet documentation.
 
 **Compose hash** — Expected enclave measurement (related to runtime registers such as RTMR3) configured in `tee_compose_hash`. Clients reject delegated proving if the live enclave does not match. Updates when the TEE image or CVM is redeployed.
 
-**Confidential AI** — Testnet LLM product: chat with `gpt-oss-120b` inside attested TEEs, metered by prepaid `lev_` API key credits. Hosted UI: [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/). See [Confidential AI overview](../confidential-ai/overview.md).
+**Confidential AI** — Testnet LLM product: chat with open-weight models inside attested TEEs. Hosted UI: [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/). See [Confidential AI overview](../confidential-ai/overview.md).
 
 **Consume** — Wallet action that processes claimable notes so balances update.
 
 **Contract** — On-chain Miden program with an ID browseable under **Contracts** in the explorer.
 
-**Credits (Confidential AI)** — Off-chain prepaid units on the auth service. New keys start at 0; each successful chat costs 1 credit. Top up via NOWPayments (sandbox on testnet). See [Credits and NOWPayments](../confidential-ai/credits.md).
+**Credits (Confidential AI)** — Prepaid units. New accounts start at 0; each successful chat costs 1 credit. Top up from the [chat UI](https://ai-tee-leviathan.up.railway.app/) with the wallet or a Stripe sandbox card. See [Credits](../confidential-ai/credits.md).
 
 ## D
 
@@ -48,7 +48,7 @@ Terms used across Leviathan testnet documentation.
 
 ## G
 
-**gpt-oss-120b** — Open-weight (Apache 2.0) model id served by Confidential AI on testnet. See [The model](../confidential-ai/model.md).
+**gpt-oss-120b** — Former Confidential AI model id. Removed from the live catalog. The UI default is `qwen3.8-27b`. See [Models](../confidential-ai/model.md).
 
 ## M
 
@@ -66,7 +66,7 @@ Terms used across Leviathan testnet documentation.
 
 **Nonce** — Counter associated with an account or contract; advances as state updates are executed.
 
-**NOWPayments** — Payment provider used for Confidential AI credit checkout. Testnet uses **sandbox** completion (do not send real funds). See [Credits and NOWPayments](../confidential-ai/credits.md).
+**NOWPayments** — Earlier Confidential AI checkout provider. The hosted UI now uses the Leviathan wallet or Stripe sandbox. See [Credits](../confidential-ai/credits.md).
 
 ## P
 
@@ -100,7 +100,7 @@ Terms used across Leviathan testnet documentation.
 
 **Wallet (browser)** — Hosted at `/wallet` on leviathandev; stores keys in browser storage (IndexedDB). Secondary to the Chrome extension for pioneers.
 
-**Wallet (Chrome extension)** — **Leviathan** unpacked extension distributed via the Pioneers Telegram pin. Primary pioneer wallet; Receive addresses are bech32. Not used to sign into Confidential AI today.
+**Wallet (Chrome extension)** — **Leviathan** unpacked extension. Download [v1.14.0](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip). Receive addresses are bech32. Can also log in to [Private AI](https://ai-tee-leviathan.up.railway.app/).
 
 **WXNT** — Wrapped XNT on Miden. Testnet programmable-layer asset; 1:1 peg intent with XNT.
 

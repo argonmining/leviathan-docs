@@ -1,23 +1,22 @@
 # Install the Leviathan Chrome extension
 
-The **Leviathan** Chrome extension is the primary pioneer wallet for Leviathan testnet. Builds are shared with **Leviathan Pioneers** members. There is no public Chrome Web Store listing and no public git checkout for end users.
+The **Leviathan** Chrome extension is the wallet for Leviathan public testnet. There is no Chrome Web Store listing yet. Install the official zip with **Load unpacked**.
+
+<a href="https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip" class="button primary">Download Leviathan Chrome v1.14.0</a>
 
 ## Before you start
 
 * Google Chrome (or a Chromium browser that supports unpacked extensions)
-* Membership in the **Leviathan Pioneers Telegram group**
-* Willingness to use **Developer mode** / **Load unpacked** (this is intentional for the closed beta)
+* Willingness to use **Developer mode** / **Load unpacked**
 
-The extension is built for **testnet**. Treat every balance as worthless test assets.
+The extension is built for **testnet**. Treat every balance as worthless test assets. Download only the zip linked on this page.
 
-## Step 1 — Get the package from Pioneers Telegram
+## Step 1 — Download the package
 
-1. Open the Leviathan Pioneers Telegram group.
-2. Open the **pinned** message that links the current Chrome extension package (zip or folder instructions).
-3. Download that package to your computer.
-4. If it is a zip file, **fully unzip** it. Chrome must load a folder that contains `manifest.json`, not the zip itself.
+1. Download [leviathan-chrome-testnet.zip](https://github.com/argonmining/leviathan-docs/releases/download/chrome-v1.14.0-2026-07-17/leviathan-chrome-testnet.zip) (v1.14.0).
+2. **Fully unzip** it. Chrome must load a folder that contains `manifest.json`, not the zip itself.
 
-If you do not see a pin or the link expired, ask in the group. Do not download “Leviathan” wallets from random third parties.
+Do not install “Leviathan” wallets from random third parties. The release page is [chrome-v1.14.0-2026-07-17](https://github.com/argonmining/leviathan-docs/releases/tag/chrome-v1.14.0-2026-07-17).
 
 ## Step 2 — Load unpacked in Chrome
 
@@ -28,7 +27,7 @@ If you do not see a pin or the link expired, ask in the group. Do not download �
 5. Confirm an extension named **Leviathan** appears in the list.
 6. Pin it from the puzzle-piece extensions menu for easier access.
 
-To update later: remove the old unpacked extension (or replace files and click **Reload** on `chrome://extensions`), then load the new package from the latest pin.
+To update later: remove the old unpacked extension (or replace files and click **Reload** on `chrome://extensions`), then load the folder from the latest zip on this page.
 
 ## Step 3 — Create a wallet
 
@@ -58,12 +57,12 @@ From home you can open flows such as **Send** and **Receive**. For funding, see 
 
 ## Network note
 
-Pioneer builds default to **Testnet**. The header network control may be disabled in the UI. Do not expect mainnet balances or mainnet addresses to work in this build.
+Public testnet builds default to **Testnet**. Do not expect mainnet balances or mainnet addresses to work in this build.
 
 ## Security checklist
 
-* Never share your seed phrase or password in Telegram.
-* Prefer the pinned package from the official Pioneers group only.
+* Never share your seed phrase or password.
+* Install only the zip linked from this documentation.
 * Uninstall old unpacked builds when you switch to a new zip so you do not run two conflicting versions.
 * Export or back up accounts before clearing extension data.
 
