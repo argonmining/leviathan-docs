@@ -5,7 +5,7 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 > **Status:** Public testnet. Testnet assets have **no real-world value**. This documentation describes the public experience on [leviathandev.neptune.io](https://leviathandev.neptune.io).
 
 {% file src=".gitbook/assets/leviathan-chrome-testnet.zip" %}
-Leviathan Chrome extension v1.14.0
+Leviathan Chrome extension v1.14.0 (build 1f0db5a3)
 {% endfile %}
 
 <a href="https://ai-tee-leviathan.up.railway.app/" class="button secondary">Open Private AI</a>
