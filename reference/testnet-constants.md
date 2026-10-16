@@ -12,7 +12,8 @@ Authoritative quick reference for the public Leviathan **testnet** environment. 
 | Blocks | [https://leviathandev.neptune.io/blocks](https://leviathandev.neptune.io/blocks) |
 | Transactions | [https://leviathandev.neptune.io/transactions](https://leviathandev.neptune.io/transactions) |
 | Contracts | [https://leviathandev.neptune.io/contracts](https://leviathandev.neptune.io/contracts) |
-| Chrome extension v1.14.0 | [Download from the install page](../wallets/chrome-extension.md) |
+| Chrome extension v1.14.0, build `9e4f4986` | [Download from the install page](../wallets/chrome-extension.md) |
+| Neptune L1 wallet 0.3.9 (build `d80f3734`) | [Linux, macOS, Android](../wallets/l1-wallet.md) |
 | Private AI chat UI | [https://ai-tee-leviathan.up.railway.app/](https://ai-tee-leviathan.up.railway.app/) |
 | Confidential AI Edge | `https://leviathan-edge.duckdns.org` |
 | Confidential AI Auth | `https://leviathan-auth.duckdns.org` |

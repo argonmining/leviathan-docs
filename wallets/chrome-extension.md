@@ -3,7 +3,7 @@
 The **Leviathan** Chrome extension is the wallet for Leviathan public testnet. Download it here, unzip it, and load it in Chrome. There is no Chrome Web Store listing yet.
 
 {% file src="../.gitbook/assets/leviathan-chrome-testnet.zip" %}
-Leviathan Chrome v1.14.0 (build 1f0db5a3)
+Leviathan Chrome v1.14.0 (build 9e4f4986)
 {% endfile %}
 
 ## Before you start
@@ -15,7 +15,7 @@ The extension is built for **testnet**. Treat every balance as worthless test as
 
 ## Step 1 — Download the package
 
-1. Click the **Leviathan Chrome** file at the top of this page and download the zip (v1.14.0, build `1f0db5a3`).
+1. Click the **Leviathan Chrome** file at the top of this page and download the zip (v1.14.0, build `9e4f4986`).
 2. **Fully unzip** it. Open the **`leviathan`** folder. That folder contains `manifest.json`. Chrome must load that folder, not the zip.
 
 ## Step 2 — Load unpacked in Chrome

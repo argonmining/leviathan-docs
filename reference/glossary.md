@@ -100,6 +100,8 @@ Terms used across Leviathan testnet documentation.
 
 **Wallet (browser)** — Hosted at `/wallet` on leviathandev; stores keys in browser storage (IndexedDB). Secondary to the Chrome extension for pioneers.
 
+**Wallet (Neptune L1)** — **XNT Wallet** 0.3.9 for Linux, Apple Silicon, and Android. Native XNT on Neptune testnet. See [Neptune L1 testnet wallet](../wallets/l1-wallet.md).
+
 **Wallet (Chrome extension)** — **Leviathan** unpacked extension. Download it from [Install the Chrome extension](../wallets/chrome-extension.md). Receive addresses are bech32. Can also log in to [Private AI](https://ai-tee-leviathan.up.railway.app/).
 
 **WXNT** — Wrapped XNT on Miden. Testnet programmable-layer asset; 1:1 peg intent with XNT.

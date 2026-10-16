@@ -6,6 +6,7 @@ Leviathan is **testnet only** right now. There is no mainnet deployment describe
 
 * Browse blocks, transactions, accounts, and contracts on the [explorer](https://leviathandev.neptune.io/)
 * Install the **[Leviathan Chrome extension](../wallets/chrome-extension.md)** (the zip is on that page)
+* Install the **[Neptune L1 wallet](../wallets/l1-wallet.md)** for native XNT (Linux, Apple Silicon, or Android)
 * Optionally use the [hosted web wallet](https://leviathandev.neptune.io/wallet)
 * Get testnet funds by asking in the **Leviathan Pioneers** Telegram group
 * Send assets between accounts you control

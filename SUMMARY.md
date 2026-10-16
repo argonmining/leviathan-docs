@@ -13,6 +13,7 @@
 
 * [Wallets overview](wallets/README.md)
 * [Install the Chrome extension](wallets/chrome-extension.md)
+* [Neptune L1 testnet wallet](wallets/l1-wallet.md)
 * [Hosted web wallet](wallets/web-wallet.md)
 
 ## Using the explorer

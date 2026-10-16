@@ -26,7 +26,8 @@ Short version:
 
 | Need | Use |
 |------|-----|
-| Chrome extension (primary) | [Download v1.14.0](../wallets/chrome-extension.md) |
+| Chrome extension (Leviathan L2) | [Download v1.14.0, build 9e4f4986](../wallets/chrome-extension.md) |
+| Neptune L1 XNT | [XNT Wallet 0.3.9](../wallets/l1-wallet.md) |
 | No extension install possible right now | Hosted web wallet |
 | Private AI chat | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
 | Mobile app store install | Not offered on public testnet yet |

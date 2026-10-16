@@ -5,7 +5,7 @@ Official documentation for **Leviathan**, the privacy and programmability stack 
 > **Status:** Public testnet. Testnet assets have **no real-world value**. This documentation describes the public experience on [leviathandev.neptune.io](https://leviathandev.neptune.io).
 
 {% file src=".gitbook/assets/leviathan-chrome-testnet.zip" %}
-Leviathan Chrome extension v1.14.0 (build 1f0db5a3)
+Leviathan Chrome extension v1.14.0 (build 9e4f4986)
 {% endfile %}
 
 <a href="https://ai-tee-leviathan.up.railway.app/" class="button secondary">Open Private AI</a>
@@ -19,7 +19,8 @@ Leviathan Chrome extension v1.14.0 (build 1f0db5a3)
 | Bridge monitor | [leviathandev.neptune.io/bridge](https://leviathandev.neptune.io/bridge) |
 | Private AI (TEE chat) | [ai-tee-leviathan.up.railway.app](https://ai-tee-leviathan.up.railway.app/) |
 | NeptuneSwap (DEX) | [testnet.zkswap.ai](https://testnet.zkswap.ai/) |
-| Chrome extension (v1.14.0) | [Download on the install page](wallets/chrome-extension.md) |
+| Chrome extension (v1.14.0, build `9e4f4986`) | [Download on the install page](wallets/chrome-extension.md) |
+| Neptune L1 wallet (0.3.9) | [Linux, macOS, Android](wallets/l1-wallet.md) |
 | WXNT Faucet ID | `b0682b76d8939720429ec7e43f194a` |
 
 ## What is Leviathan?

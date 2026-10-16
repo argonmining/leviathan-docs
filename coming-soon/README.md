@@ -9,7 +9,7 @@ Expect churn on:
 * NeptuneSwap pairs, pool caps, Limit-order availability, and fee UI
 * Bridge settlement parameters and monitor fields
 * Wallet UX around notes (Sync / Consume) after dApp trades
-* Mobile / store distribution (not part of public pioneer docs yet)
+* Mobile / store distribution (Play Store and Chrome Web Store are not public yet; the L1 Android sideload is on the [L1 wallet page](../wallets/l1-wallet.md))
 
 Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a fixed table in this GitBook yet. When the team publishes them, they will land in [testnet constants](../reference/testnet-constants.md).
 
@@ -17,6 +17,7 @@ Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a f
 
 * [NeptuneSwap](../dex/overview.md) — [testnet.zkswap.ai](https://testnet.zkswap.ai/)
 * [Leviathan Chrome extension](../wallets/chrome-extension.md) — download the zip on that page
+* [Neptune L1 wallet](../wallets/l1-wallet.md) — Linux, macOS, and Android builds for native XNT
 * [Hosted web wallet](../wallets/web-wallet.md)
 * [Request testnet funds](../getting-started/request-funds.md)
 * [Bridge monitor](../bridge/README.md)
@@ -26,7 +27,7 @@ Contract IDs for NeptuneSwap pools and swap faucets are **not** published as a f
 
 * Testnet-only scope — no mainnet promises in this doc
 * Experimental bridge — exercise carefully
-* Mobile store builds remain outside public pioneer documentation
+* Play Store and Chrome Web Store listings are not public yet
 
 ## Stay updated
 

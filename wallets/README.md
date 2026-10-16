@@ -8,6 +8,12 @@ The **Leviathan Chrome extension** is the primary wallet. Download the official 
 
 [Download the extension](chrome-extension.md)
 
+## Neptune L1 wallet (native XNT)
+
+**XNT Wallet** 0.3.9 is the desktop and Android wallet for Neptune L1 testnet. Linux, Apple Silicon, and Android arm64 builds are public. It is not the Chrome extension.
+
+[Install the L1 wallet](l1-wallet.md)
+
 ## Also available: hosted web wallet
 
 The explorer hosts a browser wallet at [leviathandev.neptune.io/wallet](https://leviathandev.neptune.io/wallet). It remains a documented option if you cannot install the extension. The Chrome extension is the product target.
@@ -16,8 +22,7 @@ See [Hosted web wallet](web-wallet.md).
 
 ## Not covered here
 
-* **iOS / Android** builds — internal only; not part of the public pioneer docs.
-* **Desktop (Tauri)** — not documented as a pioneer distribution path on this page.
+* **iOS** and **Play Store / Chrome Web Store** listings are not public yet. Android sideload of the L1 wallet is on the [L1 wallet page](l1-wallet.md).
 * **DEX** — use **[NeptuneSwap](../dex/overview.md)** at [testnet.zkswap.ai](https://testnet.zkswap.ai/) (connect Leviathan Wallet).
 
 ## Address formats (important)
